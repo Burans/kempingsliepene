@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
+  windowHeightFix();
   initGallery();
   intiServicesList();
   initVideoCont();
+
 });
 
 
@@ -67,5 +69,15 @@ function initVideoCont(){
     videoCont.removeAttribute('data-active');
     iframeCont.innerHTML = '';
   });
+
+}
+
+function windowHeightFix(){
+  onWindowResize();
+  window.addEventListener('resize', onWindowResize, false);
+
+  function onWindowResize(){
+    document.querySelector('body').style.height = window.innerHeight+'px';
+  }
 
 }
