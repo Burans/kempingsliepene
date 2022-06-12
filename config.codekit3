@@ -447,6 +447,25 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -464,7 +483,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 674917526.51911402,
-    "displayValue" : "kempingsliepene-01",
+    "displayValue" : "kempingsliepene",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-brick",
     "iconImageWasSetByUser" : 0
