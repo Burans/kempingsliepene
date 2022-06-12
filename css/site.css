@@ -2,7 +2,7 @@
 @import "flickity.css";
 @font-face {
   font-family: "Drina";
-  src: url("fonts/drina.woff");
+  src: url("../fonts/drina.woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -77,7 +77,7 @@ h2:first-child {
   width: 36px;
   height: 36px;
   z-index: 10;
-  background-image: url("img/icons/icon-close.svg");
+  background-image: url("../img/icons/icon-close.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -109,7 +109,7 @@ h2:first-child {
 }
 
 main {
-  background-image: url("/img/texture-01.jpg");
+  background-image: url("../img/texture-01.jpg");
   background-size: 500px 247px;
   background-repeat: repeat;
   background-position: top center;
@@ -187,7 +187,7 @@ nav {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("img/icons/icon-arrow.svg");
+  background-image: url("../img/icons/icon-arrow.svg");
   cursor: pointer;
 }
 
@@ -353,7 +353,7 @@ nav {
   top: 50%;
   transform: translateY(-50%) rotate(0deg);
   border-radius: 100%;
-  background-image: url("img/icons/icon-arrow.svg");
+  background-image: url("../img/icons/icon-arrow.svg");
   background-size: 100% 100%;
 }
 
@@ -384,7 +384,7 @@ footer {
 }
 
 .footer__illustration {
-  background-image: url("img/forest.png");
+  background-image: url("../img/forest.png");
   background-repeat: repeat-x;
   background-size: auto 100%;
   background-position: bottom center;
