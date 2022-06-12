@@ -1,0 +1,127 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    title Kempings Liepene
+    link(rel="stylesheet" href="/css/site.css")
+  body
+    .wrap
+      .video-cont
+        .video-cont__close
+        .video
+          .iframe-cont
+      main
+        nav
+          .nav__items
+            div LV
+            div EN
+            div DE
+            div RU
+        
+        section.s01
+          .s01__illustration-cont
+            picture
+              source( media="(min-width: 800px)" srcset="/img/header-desktop.png")
+              img(class="s01__illustration" src="/img/header-mobile.png", alt="")
+        section.s02
+          .s02__arrows
+            .s02__arrow.s02__arrow-left
+            .s02__arrow.s02__arrow-right
+          .s02__slider-cont
+            .s02__slide
+              .s02__play-icon(data-video-url="https://www.youtube.com/embed/Ntxj0zScxdM")
+                include ../../img/icons/icon-play.svg
+              img(src="img/01-drone/drone-01.jpg", alt="")
+            .s02__slide
+              img(src="img/01-drone/drone-02.jpg", alt="")
+            .s02__slide
+              img(src="img/01-drone/drone-03.jpg", alt="")
+            .s02__slide
+              img(src="img/01-drone/drone-04.jpg", alt="")
+            .s02__slide
+              img(src="img/01-drone/drone-05.jpg", alt="")
+      
+        section.s03
+          h2 vieta atpūtai
+          p Kempings "Liepene" atrodas pašā jūras krastā, aptuveni 15 kilometru attālumā jeb 10-15 minūšu braucienā no tūristu iecienītās Ventspils. Kempinga nosaukums atvasināts no apdzīvotās vietas nosaukuma, proti, tas atrodas Liepenē.
+          p Kempings darbojas jau kopš 1992. gada. Līdz pat šai dienai tas tiek pakāpeniski uzlabots un iekopts, lai apmeklētājiem nodrošinātu neaizmirstamas brīvdienas.
+          p Kempings "Liepene" darbojas visu gadu, iespējams rīkot dažādu veidu pasākumus: kāzas, seminārus, sporta spēles, sporta sacensības, notievēšanas kūres, vasaras nometnes, došanos pastaigās u.c. Miniet savas vēlmes un vienosimies par to realizēšanu! Piedāvājam labiekārtotu teritoriju, kas ieskauta pasakainā dabas parkā – apkārt ir mežs, kurā var doties sēņot, līdzās jūra, kur doties garās pastaigās, meklēt dzintariņus, akmentiņus, sauļoties, peldēties vai vienkārši baudīt cilvēka neskarto dabu!
+          .s03__actions
+            a(class="s03__action" href="https://g.page/KempingsLiepene?share" target="_blank")
+              .s03__action-icon
+                img(src="/img/icons/icon-map.png", alt="")
+              .s03__action-text Atvērt karti
+            a(class="s03__action" href="tel:+37129130012")
+              .s03__action-icon
+                img(src="/img/icons/icon-phone.png", alt="")
+              .s03__action-text +371 29130012
+            a(class="s03__action" href="mailto:kempings.liepene@inbox.lv")
+              .s03__action-icon
+                img(src="/img/icons/icon-mail.png", alt="")
+              .s03__action-text kempings.liepene@inbox.lv
+                    
+        section.s04
+          h2 pakalpojumi
+          .s04__list
+            .s04__item
+              .s04__header
+                .s04__title Kapteiņa māja
+                .s04__price 120€
+              .s04__descr Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, ipsam.
+            .s04__item
+              .s04__header
+                .s04__title Pirts māja
+                .s04__price 80€
+              .s04__descr Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, ipsam.
+            .s04__item
+              .s04__header
+                .s04__title Zemo cenu gultasvietas
+                .s04__price 15€ no personas
+              .s04__descr Adipisicing elit. Laboriosam repellat nesciunt illo saepe totam sed dolorem, ducimus similique.
+            .s04__item
+              .s04__header
+                .s04__title Daudzvietīgās istabas
+                .s04__price 10€ no personas
+              .s04__descr Soluta hic totam id sint consequuntur facere dolorem ad illo porro nesciunt.
+            .s04__item
+              .s04__header
+                .s04__title Banketu zāle
+                .s04__price 20€ stundā
+              .s04__descr Tempora aliquam asperiores repellat corporis magnam reprehenderit, maxime quo alias rerum vel dolores. Dolores.
+            .s04__item
+              .s04__header
+                .s04__title Sauna
+                .s04__price 20€ stundā
+              .s04__descr Odio deserunt, illum accusamus quod consectetur velit ut ipsum accusantium atque quos, a, quam necessitatibus. Repellat, velit, fugiat.
+            .s04__item
+              .s04__header
+                .s04__title Telšu vietas
+                .s04__price 5€ pieaugušajiem
+              .s04__descr Voluptatibus, eaque aspernatur nesciunt accusamus harum repellendus, sapiente. Quis ex quidem in non fugiat.
+            .s04__item
+              .s04__header
+                .s04__title Treileru vietas
+                .s04__price 15€ divām personām
+              .s04__descr Iste aliquam corporis error quas aliquid nam dolore unde, necessitatibus laborum rerum facere, hic impedit porro illum assumenda iusto nobis eius?
+            .s04__item
+              .s04__header
+                .s04__title Autostāvvieta
+                .s04__price 3€ pie telts, 2€ autostāvvietā              
+            
+    
+        footer
+          .footer__illustration
+          
+          .footer__content
+
+            div
+              a(href="tel:+37129130012") +371 29130012
+              span •
+              a(href="mailto:kempings.liepene@inbox.lv") kempings.liepene@inbox.lv
+              span •
+              a(href="mailto:una.svikekalne@gmail.com") una.svikekalne@gmail.com
+            div Kempings “Liepene”, Ventspils novads, Tārgales pagasts, Liepene, LV-3601
+      
+    script(src="/js/site.js")
